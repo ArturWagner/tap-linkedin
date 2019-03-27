@@ -14,3 +14,9 @@ To use add a config.json
 ```
 
 `tap-linkedin -c config.json --catalog catalog.json`
+
+## Docker
+
+Map volume to run docker
+
+`docker run -v /path/to/tap/:opt/app/ tap-linkedin`

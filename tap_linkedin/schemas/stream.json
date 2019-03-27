@@ -1,0 +1,91 @@
+{
+	"streams": [
+		{
+			"stream_alias": "linkedin_ads_reportings",
+			"stream": "ads_reportings",
+			"tap_stream_id": "ads_reportings",
+			"schema": {
+				"selected": true,
+				"type": [
+					"null",
+					"object"
+				],
+				"properties": {
+					"date_extraction": {
+						"type": [
+							"string"
+						]
+					},
+					"day": {
+						"type": [
+							"string"
+						]
+					},
+					"campaign_name": {
+						"type": [
+							"string"
+						]
+					},
+					"cost_type": {
+						"type": [
+							"string"
+						]
+					},
+					"status": {
+						"type": [
+							"string"
+						]
+					},
+					"campaign_type": {
+						"type": [
+							"string"
+						]
+					},
+					"costInLocalCurrency": {
+						"type": [
+							"number"
+						]
+					},
+					"impressions": {
+						"type": [
+							"number"
+						]
+					},
+					"clicks": {
+						"type": [
+							"number"
+						]
+					},
+					"likes": {
+						"type": [
+							"number"
+						]
+					},
+					"totalEngagements": {
+						"type": [
+							"number"
+						]
+					},
+					"oneClickLeads": {
+						"type": [
+							"number"
+						]
+					},
+					"externalWebsiteConversions": {
+						"type": [
+							"number"
+						]
+					}
+				}
+			},
+			"metadata": [
+				{
+					"metadata": {
+						"selected": true
+					},
+					"breadcrumb": []
+				}
+			]
+		}
+	]
+}

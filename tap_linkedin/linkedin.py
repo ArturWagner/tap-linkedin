@@ -1,5 +1,8 @@
 import requests
 import json
+import singer
+
+LOGGER = singer.get_logger()
 
 
 def get_campaigns_info(account_id, header):
@@ -70,6 +73,6 @@ def get_campaigns(config):
             campaigns.append(campaing_metrics[0])
 
         except IndexError:
-            print('campaing elements is blank')
+            LOGGER.info('Campaing has no metrics')
 
     return campaigns
